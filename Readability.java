@@ -67,9 +67,9 @@ public class Readability {
                 /*
                 The lines below retrieve readability score through the following methods:
                 Automated Readability Index (ARI) -  https://en.wikipedia.org/wiki/Automated_readability_index
-                Flesch–Kincaid Grade Level (FK) - https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests
+                Flesch-Kincaid Grade Level (FK) - https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests
                 Simple Measure of Gobbledygook (SMOG) - https://en.wikipedia.org/wiki/SMOG
-                Coleman–Liau index (CL) - https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index
+                Coleman-Liau index (CL) - https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index
                 */
             double scoreARI = (4.71 * charCount / wordCount) +
                     (0.5 * wordCount / sentenceCount) - 21.43;
@@ -99,22 +99,22 @@ public class Readability {
                 case "all" -> {
                     System.out.printf("Automated Readability Index: %f (about %s year olds)",
                             scoreARI, ageARI);
-                    System.out.printf("\nFlesch–Kincaid readability tests: %f (about %s year olds)",
+                    System.out.printf("\nFlesch-Kincaid readability tests: %f (about %s year olds)",
                             scoreFK, ageFK);
                     System.out.printf("\nSimple Measure of Gobbledygook: %f (about %s year olds)",
                             scoreSMOG, ageSMOG);
-                    System.out.printf("\nColeman–Liau index: %f (about %s year olds)",
+                    System.out.printf("\nColeman-Liau index: %f (about %s year olds)",
                             scoreCL, ageCL);
                     double avg = (ageARI + ageARI + ageSMOG + ageCL) / 4f;
                     System.out.printf("\n\nThis text should be understood in average by %f year olds.", avg);
                 }
                 case "ari" -> System.out.printf("Automated Readability Index: %f (about %s year olds)",
                         scoreARI, ageARI);
-                case "fk" -> System.out.printf("Flesch–Kincaid readability tests: %f (about %s year olds)",
+                case "fk" -> System.out.printf("Flesch-Kincaid readability tests: %f (about %s year olds)",
                         scoreFK, ageFK);
                 case "smog" -> System.out.printf("Simple Measure of Gobbledygook: %f (about %s year olds)",
                         scoreSMOG, ageSMOG);
-                case "cl" -> System.out.printf("Coleman–Liau index: %f (about %s year olds)",
+                case "cl" -> System.out.printf("Coleman-Liau index: %f (about %s year olds)",
                         scoreCL, ageCL);
                 default -> System.out.println("I can't calculate that :(");
             }
