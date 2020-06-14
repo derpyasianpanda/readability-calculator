@@ -4,6 +4,13 @@ This program retrieves a desire file, parses the data, and calculates the readib
 
 This project was created with knowledge gained from Hyper Skill's Java track.
 
+## Usage
+
+1. Compile the Readability.java (using [Javac](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javac.html))
+2. Prepare some type of file (preferably .txt) to have the program parse and analyze
+3. Run the program from the terminal (That is in the directory of the compiled bytecode) using the command `java Readability`
+  - You can declare the file path in the command line arguments before running (ex. `java Readability tests\\tests.txt`)
+
 ## What I used/referenced
 
 - [Java](https://www.java.com/)
