@@ -55,7 +55,7 @@ public class Readability {
             int charCount = text.replaceAll("[\\s]+", "").length();
             int syllableCount = 0;
             int polySyllableCount = 0;
-            for (String word : text.split("[,:'\"]?[\\s][,:'\"]?")) {
+            for (String word : text.split("[,:'\"]?[\\s]+[,:'\"]?")) {
                 if (word.charAt(word.length() - 1) == 'e') {
                     word = word.substring(0, word.length() - 1);
                 }
