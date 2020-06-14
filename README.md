@@ -7,7 +7,6 @@ This project was created with knowledge gained from Hyper Skill's Java track.
 ## What I used/referenced
 
 - [Java](https://www.java.com/)
-- [RegEx](https://en.wikipedia.org/wiki/Regular_expression)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 - [Hyper Skill](https://hyperskill.org/)
 - Readability Calculations
@@ -16,3 +15,12 @@ This project was created with knowledge gained from Hyper Skill's Java track.
   - [Flesch–Kincaid Index](https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests)
   - [Coleman–Liau Index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
   - [Simple Measure of Gobbledygookx](https://en.wikipedia.org/wiki/SMOG)
+
+## What I learned
+
+- [RegEx](https://en.wikipedia.org/wiki/Regular_expression)
+- Java Syntax
+  
+  - File IO
+  - Design Patterns
+  - Import/package structures
